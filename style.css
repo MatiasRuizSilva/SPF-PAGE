@@ -7,26 +7,33 @@ body {
     display: flex;
     margin: auto;
     justify-content: center;
-    background-color: rgb(46, 75, 155);
+    /* background-color: rgb(46, 75, 155); */
     color: white;
     border-radius: 1em;
     border: 1px solid white;
     padding: 0.16em;
+    width: 80%;
+    margin-top: 0.5em;
 }
 
 .list {
     display: flex;
+    margin: auto;
+    margin-top: 0.5em;
     flex-direction: column;
     list-style: none;
-    align-items: center;
 }
 
 .link {
+    display: flex;
+    margin: auto;
     padding: 1.8em;
     margin: 1em auto;
-    background-color: rgb(41, 25, 109);
+    background-color: rgb(46, 75, 155);
     border-radius: 1em;
     border: 1px solid white;
+    width: 12em;
+    justify-content: center;
 }
 
 a {
