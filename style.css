@@ -1,11 +1,11 @@
-body{
+body {
     background-color: black;
     color: white;
 }
 
-
-.title{
+.title {
     display: flex;
+    margin: auto;
     justify-content: center;
     background-color: rgb(46, 75, 155);
     color: white;
@@ -14,18 +14,22 @@ body{
     padding: 0.16em;
 }
 
-.list{
+.list {
     display: flex;
     flex-direction: column;
     list-style: none;
     align-items: center;
 }
 
-.link{
-    padding: 2em;
-    margin: 1em;
+.link {
+    padding: 1.8em;
+    margin: 1em auto;
     background-color: rgb(41, 25, 109);
     border-radius: 1em;
     border: 1px solid white;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
